@@ -1,0 +1,11 @@
+yt/
+__pycache__/
+*.pyc
+*.pyo
+.env
+.DS_Store
+*.faiss
+*.pkl
+.ipynb_checkpoints/
+faiss_index_*/
+templates/
