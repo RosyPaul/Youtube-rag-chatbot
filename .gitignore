@@ -9,3 +9,8 @@ __pycache__/
 .ipynb_checkpoints/
 faiss_index_*/
 templates/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+
