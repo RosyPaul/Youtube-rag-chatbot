@@ -132,4 +132,4 @@ with gr.Blocks(title="YouTube RAG Chatbot") as demo:
         outputs=[chatbot, history_state]
     )
 
-demo.launch()
+demo.launch(server_name="0.0.0.0", server_port=7860)
