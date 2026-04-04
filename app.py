@@ -1,7 +1,7 @@
 import gradio as gr
 from langchain_core.messages import HumanMessage, AIMessage
 from rag_pipeline import get_merged_vector_store, build_qa_chain
-import os
+
 # -------------------------
 # Setup: process one or more URLs
 # -------------------------
@@ -132,4 +132,4 @@ with gr.Blocks(title="YouTube RAG Chatbot") as demo:
         outputs=[chatbot, history_state]
     )
 
-demo.launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 10000)))
+demo.launch()
